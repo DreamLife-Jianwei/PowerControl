@@ -1,0 +1,13 @@
+# ninja log v5
+23	1528	6342090557679599	PowerControl_autogen/timestamp	2e132d0f68c7a177
+1529	5013	6342090592416714	CMakeFiles/PowerControl.dir/PowerControl_autogen/mocs_compilation.cpp.obj	139293d973ca8164
+1537	5151	6342090593802978	CMakeFiles/PowerControl.dir/mainwindow.cpp.obj	5048f1f5960cf385
+1533	4999	6342090592287011	CMakeFiles/PowerControl.dir/main.cpp.obj	be146bee911a3fc6
+5152	5786	6342090599916627	PowerControl.exe	211399e63a81a222
+12	2099	6343835131833123	PowerControl_autogen/timestamp	2e132d0f68c7a177
+2100	2563	6343835136311828	PowerControl_autogen/EWIEGA46WW/qrc_images.cpp	14ea09904843dad9
+2576	3347	6343835144046836	CMakeFiles/PowerControl.dir/PowerControl_autogen/EWIEGA46WW/qrc_images.cpp.obj	157af380da197125
+31	3863	6343835217004417	CMakeFiles/PowerControl.dir/main.cpp.obj	62ea7f9e4113e918
+22	3865	6343835217024363	CMakeFiles/PowerControl.dir/PowerControl_autogen/mocs_compilation.cpp.obj	a3f9af3dc00b6da7
+26	4059	6343835218959497	CMakeFiles/PowerControl.dir/mainwindow.cpp.obj	7d27e2068f4446c
+4059	4720	6343835225319467	PowerControl.exe	f29ae7ee91a9247

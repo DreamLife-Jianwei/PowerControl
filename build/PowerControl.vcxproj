@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{53ECE4B2-75AC-380E-ACA2-5E7E2B333BAD}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>PowerControl</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\00_Code\PowerControl\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PowerControl.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PowerControl</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\00_Code\PowerControl\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PowerControl.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PowerControl</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\00_Code\PowerControl\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PowerControl.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PowerControl</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\00_Code\PowerControl\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PowerControl.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PowerControl</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\00_Code\PowerControl\build;D:\00_Code\PowerControl;D:\00_Code\PowerControl\build\PowerControl_autogen\include_Debug;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtCore;C:\Dev\Qt6\6.0.0\mingw81_64\include;C:\Dev\Qt6\6.0.0\mingw81_64\mkspecs\win32-g++;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtWidgets;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtGui;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -mwindows</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>QT_CORE_LIB;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;_WIN32_WINNT=0x0601;MINGW_HAS_SECURE_API=1;QT_WIDGETS_LIB;QT_GUI_LIB;QT_NETWORK_LIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;QT_CORE_LIB;UNICODE;_UNICODE;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;_WIN32_WINNT=0x0601;MINGW_HAS_SECURE_API=1;QT_WIDGETS_LIB;QT_GUI_LIB;QT_NETWORK_LIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\00_Code\PowerControl\build;D:\00_Code\PowerControl;D:\00_Code\PowerControl\build\PowerControl_autogen\include_Debug;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtCore;C:\Dev\Qt6\6.0.0\mingw81_64\include;C:\Dev\Qt6\6.0.0\mingw81_64\mkspecs\win32-g++;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtWidgets;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtGui;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\00_Code\PowerControl\build;D:\00_Code\PowerControl;D:\00_Code\PowerControl\build\PowerControl_autogen\include_Debug;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtCore;C:\Dev\Qt6\6.0.0\mingw81_64\include;C:\Dev\Qt6\6.0.0\mingw81_64\mkspecs\win32-g++;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtWidgets;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtGui;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target PowerControl</Message>
+      <Command>setlocal
+cd D:\00_Code\PowerControl\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/00_Code/PowerControl/build/CMakeFiles/PowerControl_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Dev\Qt6\6.0.0\mingw81_64\lib\libQt6Widgets.a;C:\Dev\Qt6\6.0.0\mingw81_64\lib\libQt6Network.a;C:\Dev\Qt6\6.0.0\mingw81_64\lib\libQt6Gui.a;C:\Dev\Qt6\6.0.0\mingw81_64\lib\libQt6Core.a;d3d11.lib;dxgi.lib;dxguid.lib;mpr.lib;userenv.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/00_Code/PowerControl/build/Debug/PowerControl.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/00_Code/PowerControl/build/Debug/PowerControl.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\00_Code\PowerControl\build;D:\00_Code\PowerControl;D:\00_Code\PowerControl\build\PowerControl_autogen\include_Release;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtCore;C:\Dev\Qt6\6.0.0\mingw81_64\include;C:\Dev\Qt6\6.0.0\mingw81_64\mkspecs\win32-g++;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtWidgets;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtGui;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -mwindows</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;_WIN32_WINNT=0x0601;MINGW_HAS_SECURE_API=1;QT_WIDGETS_LIB;QT_GUI_LIB;QT_NETWORK_LIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;UNICODE;_UNICODE;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;_WIN32_WINNT=0x0601;MINGW_HAS_SECURE_API=1;QT_WIDGETS_LIB;QT_GUI_LIB;QT_NETWORK_LIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\00_Code\PowerControl\build;D:\00_Code\PowerControl;D:\00_Code\PowerControl\build\PowerControl_autogen\include_Release;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtCore;C:\Dev\Qt6\6.0.0\mingw81_64\include;C:\Dev\Qt6\6.0.0\mingw81_64\mkspecs\win32-g++;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtWidgets;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtGui;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\00_Code\PowerControl\build;D:\00_Code\PowerControl;D:\00_Code\PowerControl\build\PowerControl_autogen\include_Release;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtCore;C:\Dev\Qt6\6.0.0\mingw81_64\include;C:\Dev\Qt6\6.0.0\mingw81_64\mkspecs\win32-g++;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtWidgets;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtGui;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target PowerControl</Message>
+      <Command>setlocal
+cd D:\00_Code\PowerControl\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/00_Code/PowerControl/build/CMakeFiles/PowerControl_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Dev\Qt6\6.0.0\mingw81_64\lib\libQt6Widgets.a;C:\Dev\Qt6\6.0.0\mingw81_64\lib\libQt6Network.a;C:\Dev\Qt6\6.0.0\mingw81_64\lib\libQt6Gui.a;C:\Dev\Qt6\6.0.0\mingw81_64\lib\libQt6Core.a;d3d11.lib;dxgi.lib;dxguid.lib;mpr.lib;userenv.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/00_Code/PowerControl/build/Release/PowerControl.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/00_Code/PowerControl/build/Release/PowerControl.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\00_Code\PowerControl\build;D:\00_Code\PowerControl;D:\00_Code\PowerControl\build\PowerControl_autogen\include_MinSizeRel;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtCore;C:\Dev\Qt6\6.0.0\mingw81_64\include;C:\Dev\Qt6\6.0.0\mingw81_64\mkspecs\win32-g++;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtWidgets;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtGui;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -mwindows</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;_WIN32_WINNT=0x0601;MINGW_HAS_SECURE_API=1;QT_WIDGETS_LIB;QT_GUI_LIB;QT_NETWORK_LIB;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;UNICODE;_UNICODE;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;_WIN32_WINNT=0x0601;MINGW_HAS_SECURE_API=1;QT_WIDGETS_LIB;QT_GUI_LIB;QT_NETWORK_LIB;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\00_Code\PowerControl\build;D:\00_Code\PowerControl;D:\00_Code\PowerControl\build\PowerControl_autogen\include_MinSizeRel;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtCore;C:\Dev\Qt6\6.0.0\mingw81_64\include;C:\Dev\Qt6\6.0.0\mingw81_64\mkspecs\win32-g++;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtWidgets;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtGui;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\00_Code\PowerControl\build;D:\00_Code\PowerControl;D:\00_Code\PowerControl\build\PowerControl_autogen\include_MinSizeRel;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtCore;C:\Dev\Qt6\6.0.0\mingw81_64\include;C:\Dev\Qt6\6.0.0\mingw81_64\mkspecs\win32-g++;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtWidgets;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtGui;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target PowerControl</Message>
+      <Command>setlocal
+cd D:\00_Code\PowerControl\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/00_Code/PowerControl/build/CMakeFiles/PowerControl_autogen.dir/AutogenInfo.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Dev\Qt6\6.0.0\mingw81_64\lib\libQt6Widgets.a;C:\Dev\Qt6\6.0.0\mingw81_64\lib\libQt6Network.a;C:\Dev\Qt6\6.0.0\mingw81_64\lib\libQt6Gui.a;C:\Dev\Qt6\6.0.0\mingw81_64\lib\libQt6Core.a;d3d11.lib;dxgi.lib;dxguid.lib;mpr.lib;userenv.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/00_Code/PowerControl/build/MinSizeRel/PowerControl.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/00_Code/PowerControl/build/MinSizeRel/PowerControl.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\00_Code\PowerControl\build;D:\00_Code\PowerControl;D:\00_Code\PowerControl\build\PowerControl_autogen\include_RelWithDebInfo;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtCore;C:\Dev\Qt6\6.0.0\mingw81_64\include;C:\Dev\Qt6\6.0.0\mingw81_64\mkspecs\win32-g++;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtWidgets;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtGui;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -mwindows</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;_WIN32_WINNT=0x0601;MINGW_HAS_SECURE_API=1;QT_WIDGETS_LIB;QT_GUI_LIB;QT_NETWORK_LIB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;UNICODE;_UNICODE;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;_WIN32_WINNT=0x0601;MINGW_HAS_SECURE_API=1;QT_WIDGETS_LIB;QT_GUI_LIB;QT_NETWORK_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\00_Code\PowerControl\build;D:\00_Code\PowerControl;D:\00_Code\PowerControl\build\PowerControl_autogen\include_RelWithDebInfo;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtCore;C:\Dev\Qt6\6.0.0\mingw81_64\include;C:\Dev\Qt6\6.0.0\mingw81_64\mkspecs\win32-g++;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtWidgets;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtGui;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\00_Code\PowerControl\build;D:\00_Code\PowerControl;D:\00_Code\PowerControl\build\PowerControl_autogen\include_RelWithDebInfo;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtCore;C:\Dev\Qt6\6.0.0\mingw81_64\include;C:\Dev\Qt6\6.0.0\mingw81_64\mkspecs\win32-g++;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtWidgets;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtGui;C:\Dev\Qt6\6.0.0\mingw81_64\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target PowerControl</Message>
+      <Command>setlocal
+cd D:\00_Code\PowerControl\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/00_Code/PowerControl/build/CMakeFiles/PowerControl_autogen.dir/AutogenInfo.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Dev\Qt6\6.0.0\mingw81_64\lib\libQt6Widgets.a;C:\Dev\Qt6\6.0.0\mingw81_64\lib\libQt6Network.a;C:\Dev\Qt6\6.0.0\mingw81_64\lib\libQt6Gui.a;C:\Dev\Qt6\6.0.0\mingw81_64\lib\libQt6Core.a;d3d11.lib;dxgi.lib;dxguid.lib;mpr.lib;userenv.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/00_Code/PowerControl/build/RelWithDebInfo/PowerControl.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/00_Code/PowerControl/build/RelWithDebInfo/PowerControl.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\00_Code\PowerControl\build\CMakeFiles\0fc743bcf39f09e22dc52919e3b691af\qrc_images.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Automatic RCC for images.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\00_Code\PowerControl\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/00_Code/PowerControl/build/CMakeFiles/PowerControl_autogen.dir/AutoRcc_images_EWIEGA46WW_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/00_Code/PowerControl/build/CMakeFiles/PowerControl_autogen.dir/AutoRcc_images_EWIEGA46WW_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/00_Code/PowerControl/build/CMakeFiles/PowerControl_autogen.dir/AutoRcc_images_EWIEGA46WW_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/00_Code/PowerControl/build/CMakeFiles/PowerControl_autogen.dir/AutoRcc_images_EWIEGA46WW_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\00_Code\PowerControl\images.qrc;D:\00_Code\PowerControl\build\CMakeFiles\PowerControl_autogen.dir\AutoRcc_images_EWIEGA46WW_Info.json;D:\00_Code\PowerControl\images\exit.ico;D:\00_Code\PowerControl\images\logo.ico;D:\00_Code\PowerControl\images\001.png;C:\Dev\Qt6\6.0.0\mingw81_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\00_Code\PowerControl\build\PowerControl_autogen\EWIEGA46WW\qrc_images.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Automatic RCC for images.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\00_Code\PowerControl\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/00_Code/PowerControl/build/CMakeFiles/PowerControl_autogen.dir/AutoRcc_images_EWIEGA46WW_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/00_Code/PowerControl/build/CMakeFiles/PowerControl_autogen.dir/AutoRcc_images_EWIEGA46WW_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/00_Code/PowerControl/build/CMakeFiles/PowerControl_autogen.dir/AutoRcc_images_EWIEGA46WW_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/00_Code/PowerControl/build/CMakeFiles/PowerControl_autogen.dir/AutoRcc_images_EWIEGA46WW_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\00_Code\PowerControl\images.qrc;D:\00_Code\PowerControl\build\CMakeFiles\PowerControl_autogen.dir\AutoRcc_images_EWIEGA46WW_Info.json;D:\00_Code\PowerControl\images\exit.ico;D:\00_Code\PowerControl\images\logo.ico;D:\00_Code\PowerControl\images\001.png;C:\Dev\Qt6\6.0.0\mingw81_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\00_Code\PowerControl\build\PowerControl_autogen\EWIEGA46WW\qrc_images.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Automatic RCC for images.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\00_Code\PowerControl\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/00_Code/PowerControl/build/CMakeFiles/PowerControl_autogen.dir/AutoRcc_images_EWIEGA46WW_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/00_Code/PowerControl/build/CMakeFiles/PowerControl_autogen.dir/AutoRcc_images_EWIEGA46WW_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/00_Code/PowerControl/build/CMakeFiles/PowerControl_autogen.dir/AutoRcc_images_EWIEGA46WW_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/00_Code/PowerControl/build/CMakeFiles/PowerControl_autogen.dir/AutoRcc_images_EWIEGA46WW_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\00_Code\PowerControl\images.qrc;D:\00_Code\PowerControl\build\CMakeFiles\PowerControl_autogen.dir\AutoRcc_images_EWIEGA46WW_Info.json;D:\00_Code\PowerControl\images\exit.ico;D:\00_Code\PowerControl\images\logo.ico;D:\00_Code\PowerControl\images\001.png;C:\Dev\Qt6\6.0.0\mingw81_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\00_Code\PowerControl\build\PowerControl_autogen\EWIEGA46WW\qrc_images.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Automatic RCC for images.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\00_Code\PowerControl\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/00_Code/PowerControl/build/CMakeFiles/PowerControl_autogen.dir/AutoRcc_images_EWIEGA46WW_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/00_Code/PowerControl/build/CMakeFiles/PowerControl_autogen.dir/AutoRcc_images_EWIEGA46WW_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/00_Code/PowerControl/build/CMakeFiles/PowerControl_autogen.dir/AutoRcc_images_EWIEGA46WW_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/00_Code/PowerControl/build/CMakeFiles/PowerControl_autogen.dir/AutoRcc_images_EWIEGA46WW_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\00_Code\PowerControl\images.qrc;D:\00_Code\PowerControl\build\CMakeFiles\PowerControl_autogen.dir\AutoRcc_images_EWIEGA46WW_Info.json;D:\00_Code\PowerControl\images\exit.ico;D:\00_Code\PowerControl\images\logo.ico;D:\00_Code\PowerControl\images\001.png;C:\Dev\Qt6\6.0.0\mingw81_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\00_Code\PowerControl\build\PowerControl_autogen\EWIEGA46WW\qrc_images.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\00_Code\PowerControl\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/00_Code/PowerControl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/00_Code/PowerControl -BD:/00_Code/PowerControl/build --check-stamp-file D:/00_Code/PowerControl/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6\FindWrapAtomic.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6\Qt6Config.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6\Qt6ConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6\Qt6Dependencies.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6\Qt6Targets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6\Qt6VersionlessTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6\QtFeature.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6\QtFeatureCommon.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreAdditionalTargetInfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreConfig.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreConfigExtras.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreDependencies.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreMacros.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreTargets-relwithdebinfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreVersionlessTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsAdditionalTargetInfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfig.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsDependencies.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsTargets-relwithdebinfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsVersionlessTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6EntryPoint\Qt6EntryPointAdditionalTargetInfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6EntryPoint\Qt6EntryPointConfig.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6EntryPoint\Qt6EntryPointConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6EntryPoint\Qt6EntryPointTargets-relwithdebinfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6EntryPoint\Qt6EntryPointTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6EntryPoint\Qt6EntryPointVersionlessTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Gui\Qt6GuiAdditionalTargetInfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Gui\Qt6GuiConfig.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Gui\Qt6GuiConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Gui\Qt6GuiDependencies.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Gui\Qt6GuiTargets-relwithdebinfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Gui\Qt6GuiTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Gui\Qt6GuiVersionlessTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsAdditionalTargetInfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsConfig.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsDependencies.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsTargets-relwithdebinfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsVersionlessTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Network\Qt6NetworkAdditionalTargetInfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Network\Qt6NetworkConfig.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Network\Qt6NetworkConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Network\Qt6NetworkDependencies.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Network\Qt6NetworkTargets-relwithdebinfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Network\Qt6NetworkTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Network\Qt6NetworkVersionlessTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Widgets\Qt6WidgetsAdditionalTargetInfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Widgets\Qt6WidgetsConfig.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Widgets\Qt6WidgetsConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Widgets\Qt6WidgetsDependencies.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Widgets\Qt6WidgetsMacros.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Widgets\Qt6WidgetsTargets-relwithdebinfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Widgets\Qt6WidgetsTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Widgets\Qt6WidgetsVersionlessTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsAdditionalTargetInfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsConfig.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsDependencies.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsTargets-relwithdebinfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsVersionlessTargets.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cxx.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindVulkan.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\00_Code\PowerControl\build\CMakeFiles\3.19.4\CMakeCXXCompiler.cmake;D:\00_Code\PowerControl\build\CMakeFiles\3.19.4\CMakeRCCompiler.cmake;D:\00_Code\PowerControl\build\CMakeFiles\3.19.4\CMakeSystem.cmake;D:\00_Code\PowerControl\images.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\00_Code\PowerControl\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/00_Code/PowerControl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/00_Code/PowerControl -BD:/00_Code/PowerControl/build --check-stamp-file D:/00_Code/PowerControl/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6\FindWrapAtomic.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6\Qt6Config.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6\Qt6ConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6\Qt6Dependencies.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6\Qt6Targets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6\Qt6VersionlessTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6\QtFeature.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6\QtFeatureCommon.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreAdditionalTargetInfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreConfig.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreConfigExtras.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreDependencies.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreMacros.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreTargets-relwithdebinfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreVersionlessTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsAdditionalTargetInfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfig.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsDependencies.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsTargets-relwithdebinfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsVersionlessTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6EntryPoint\Qt6EntryPointAdditionalTargetInfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6EntryPoint\Qt6EntryPointConfig.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6EntryPoint\Qt6EntryPointConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6EntryPoint\Qt6EntryPointTargets-relwithdebinfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6EntryPoint\Qt6EntryPointTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6EntryPoint\Qt6EntryPointVersionlessTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Gui\Qt6GuiAdditionalTargetInfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Gui\Qt6GuiConfig.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Gui\Qt6GuiConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Gui\Qt6GuiDependencies.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Gui\Qt6GuiTargets-relwithdebinfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Gui\Qt6GuiTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Gui\Qt6GuiVersionlessTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsAdditionalTargetInfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsConfig.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsDependencies.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsTargets-relwithdebinfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsVersionlessTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Network\Qt6NetworkAdditionalTargetInfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Network\Qt6NetworkConfig.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Network\Qt6NetworkConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Network\Qt6NetworkDependencies.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Network\Qt6NetworkTargets-relwithdebinfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Network\Qt6NetworkTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Network\Qt6NetworkVersionlessTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Widgets\Qt6WidgetsAdditionalTargetInfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Widgets\Qt6WidgetsConfig.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Widgets\Qt6WidgetsConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Widgets\Qt6WidgetsDependencies.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Widgets\Qt6WidgetsMacros.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Widgets\Qt6WidgetsTargets-relwithdebinfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Widgets\Qt6WidgetsTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Widgets\Qt6WidgetsVersionlessTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsAdditionalTargetInfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsConfig.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsDependencies.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsTargets-relwithdebinfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsVersionlessTargets.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cxx.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindVulkan.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\00_Code\PowerControl\build\CMakeFiles\3.19.4\CMakeCXXCompiler.cmake;D:\00_Code\PowerControl\build\CMakeFiles\3.19.4\CMakeRCCompiler.cmake;D:\00_Code\PowerControl\build\CMakeFiles\3.19.4\CMakeSystem.cmake;D:\00_Code\PowerControl\images.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\00_Code\PowerControl\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/00_Code/PowerControl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/00_Code/PowerControl -BD:/00_Code/PowerControl/build --check-stamp-file D:/00_Code/PowerControl/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6\FindWrapAtomic.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6\Qt6Config.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6\Qt6ConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6\Qt6Dependencies.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6\Qt6Targets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6\Qt6VersionlessTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6\QtFeature.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6\QtFeatureCommon.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreAdditionalTargetInfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreConfig.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreConfigExtras.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreDependencies.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreMacros.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreTargets-relwithdebinfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreVersionlessTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsAdditionalTargetInfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfig.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsDependencies.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsTargets-relwithdebinfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsVersionlessTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6EntryPoint\Qt6EntryPointAdditionalTargetInfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6EntryPoint\Qt6EntryPointConfig.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6EntryPoint\Qt6EntryPointConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6EntryPoint\Qt6EntryPointTargets-relwithdebinfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6EntryPoint\Qt6EntryPointTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6EntryPoint\Qt6EntryPointVersionlessTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Gui\Qt6GuiAdditionalTargetInfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Gui\Qt6GuiConfig.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Gui\Qt6GuiConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Gui\Qt6GuiDependencies.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Gui\Qt6GuiTargets-relwithdebinfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Gui\Qt6GuiTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Gui\Qt6GuiVersionlessTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsAdditionalTargetInfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsConfig.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsDependencies.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsTargets-relwithdebinfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsVersionlessTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Network\Qt6NetworkAdditionalTargetInfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Network\Qt6NetworkConfig.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Network\Qt6NetworkConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Network\Qt6NetworkDependencies.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Network\Qt6NetworkTargets-relwithdebinfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Network\Qt6NetworkTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Network\Qt6NetworkVersionlessTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Widgets\Qt6WidgetsAdditionalTargetInfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Widgets\Qt6WidgetsConfig.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Widgets\Qt6WidgetsConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Widgets\Qt6WidgetsDependencies.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Widgets\Qt6WidgetsMacros.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Widgets\Qt6WidgetsTargets-relwithdebinfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Widgets\Qt6WidgetsTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Widgets\Qt6WidgetsVersionlessTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsAdditionalTargetInfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsConfig.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsDependencies.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsTargets-relwithdebinfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsVersionlessTargets.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cxx.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindVulkan.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\00_Code\PowerControl\build\CMakeFiles\3.19.4\CMakeCXXCompiler.cmake;D:\00_Code\PowerControl\build\CMakeFiles\3.19.4\CMakeRCCompiler.cmake;D:\00_Code\PowerControl\build\CMakeFiles\3.19.4\CMakeSystem.cmake;D:\00_Code\PowerControl\images.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\00_Code\PowerControl\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/00_Code/PowerControl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/00_Code/PowerControl -BD:/00_Code/PowerControl/build --check-stamp-file D:/00_Code/PowerControl/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6\FindWrapAtomic.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6\Qt6Config.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6\Qt6ConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6\Qt6Dependencies.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6\Qt6Targets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6\Qt6VersionlessTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6\QtFeature.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6\QtFeatureCommon.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreAdditionalTargetInfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreConfig.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreConfigExtras.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreDependencies.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreMacros.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreTargets-relwithdebinfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Core\Qt6CoreVersionlessTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsAdditionalTargetInfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfig.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsDependencies.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsTargets-relwithdebinfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsVersionlessTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6EntryPoint\Qt6EntryPointAdditionalTargetInfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6EntryPoint\Qt6EntryPointConfig.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6EntryPoint\Qt6EntryPointConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6EntryPoint\Qt6EntryPointTargets-relwithdebinfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6EntryPoint\Qt6EntryPointTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6EntryPoint\Qt6EntryPointVersionlessTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Gui\Qt6GuiAdditionalTargetInfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Gui\Qt6GuiConfig.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Gui\Qt6GuiConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Gui\Qt6GuiDependencies.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Gui\Qt6GuiTargets-relwithdebinfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Gui\Qt6GuiTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Gui\Qt6GuiVersionlessTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsAdditionalTargetInfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsConfig.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsDependencies.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsTargets-relwithdebinfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsVersionlessTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Network\Qt6NetworkAdditionalTargetInfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Network\Qt6NetworkConfig.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Network\Qt6NetworkConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Network\Qt6NetworkDependencies.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Network\Qt6NetworkTargets-relwithdebinfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Network\Qt6NetworkTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Network\Qt6NetworkVersionlessTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Widgets\Qt6WidgetsAdditionalTargetInfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Widgets\Qt6WidgetsConfig.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Widgets\Qt6WidgetsConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Widgets\Qt6WidgetsDependencies.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Widgets\Qt6WidgetsMacros.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Widgets\Qt6WidgetsTargets-relwithdebinfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Widgets\Qt6WidgetsTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6Widgets\Qt6WidgetsVersionlessTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsAdditionalTargetInfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsConfig.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsConfigVersion.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsDependencies.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsTargets-relwithdebinfo.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsTargets.cmake;C:\Dev\Qt6\6.0.0\mingw81_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsVersionlessTargets.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cxx.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindVulkan.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\00_Code\PowerControl\build\CMakeFiles\3.19.4\CMakeCXXCompiler.cmake;D:\00_Code\PowerControl\build\CMakeFiles\3.19.4\CMakeRCCompiler.cmake;D:\00_Code\PowerControl\build\CMakeFiles\3.19.4\CMakeSystem.cmake;D:\00_Code\PowerControl\images.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\00_Code\PowerControl\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\00_Code\PowerControl\build\PowerControl_autogen\mocs_compilation.cpp" />
+    <ClCompile Include="D:\00_Code\PowerControl\main.cpp" />
+    <ClCompile Include="D:\00_Code\PowerControl\mainwindow.cpp" />
+    <ClInclude Include="D:\00_Code\PowerControl\mainwindow.h" />
+    <None Include="D:\00_Code\PowerControl\mainwindow.ui">
+    </None>
+    <None Include="D:\00_Code\PowerControl\images.qrc">
+    </None>
+    <ClCompile Include="D:\00_Code\PowerControl\build\PowerControl_autogen\EWIEGA46WW\qrc_images.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\00_Code\PowerControl\build\ZERO_CHECK.vcxproj">
+      <Project>{24D491C0-A430-3C66-A3FA-0E98B413D6E0}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

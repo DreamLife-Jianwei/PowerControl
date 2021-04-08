@@ -1,0 +1,5 @@
+D:/00_Code/PowerControl/CMakeFiles/PowerControl.dir
+D:/00_Code/PowerControl/CMakeFiles/edit_cache.dir
+D:/00_Code/PowerControl/CMakeFiles/rebuild_cache.dir
+D:/00_Code/PowerControl/CMakeFiles/PowerControl_autogen_timestamp_deps.dir
+D:/00_Code/PowerControl/CMakeFiles/PowerControl_autogen.dir

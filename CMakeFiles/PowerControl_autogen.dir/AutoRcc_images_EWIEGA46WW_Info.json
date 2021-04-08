@@ -1,0 +1,24 @@
+{
+	"BUILD_DIR" : "D:/00_Code/PowerControl/PowerControl_autogen",
+	"CMAKE_BINARY_DIR" : "D:/00_Code/PowerControl",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/00_Code/PowerControl",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/00_Code/PowerControl",
+	"CMAKE_SOURCE_DIR" : "D:/00_Code/PowerControl",
+	"INCLUDE_DIR" : "D:/00_Code/PowerControl/PowerControl_autogen/include",
+	"INPUTS" : 
+	[
+		"D:/00_Code/PowerControl/images/exit.ico",
+		"D:/00_Code/PowerControl/images/logo.ico",
+		"D:/00_Code/PowerControl/images/001.png"
+	],
+	"LOCK_FILE" : "D:/00_Code/PowerControl/CMakeFiles/PowerControl_autogen.dir/AutoRcc_images_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "images" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_images.cpp",
+	"RCC_EXECUTABLE" : "C:/Dev/Qt6/6.0.0/mingw81_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "D:/00_Code/PowerControl/CMakeFiles/PowerControl_autogen.dir/AutoRcc_images_EWIEGA46WW_Used.txt",
+	"SOURCE" : "D:/00_Code/PowerControl/images.qrc",
+	"VERBOSITY" : 0
+}

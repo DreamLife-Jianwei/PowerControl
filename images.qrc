@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/001.png</file>
+        <file>images/exit.ico</file>
+        <file>images/logo.ico</file>
+        <file>images/mainBack.png</file>
+        <file>images/logo_W.png</file>
+        <file>images/pw_n.png</file>
+        <file>images/pw_h.png</file>
+        <file>images/pw_p.png</file>
+    </qresource>
+</RCC>

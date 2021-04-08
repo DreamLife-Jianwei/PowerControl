@@ -1,0 +1,32 @@
+{
+	"BUILD_DIR" : "D:/00_Code/PowerControl/build/PowerControl_autogen",
+	"CMAKE_BINARY_DIR" : "D:/00_Code/PowerControl/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/00_Code/PowerControl/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/00_Code/PowerControl",
+	"CMAKE_SOURCE_DIR" : "D:/00_Code/PowerControl",
+	"INCLUDE_DIR" : "D:/00_Code/PowerControl/build/PowerControl_autogen/include",
+	"INCLUDE_DIR_Debug" : "D:/00_Code/PowerControl/build/PowerControl_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "D:/00_Code/PowerControl/build/PowerControl_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "D:/00_Code/PowerControl/build/PowerControl_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "D:/00_Code/PowerControl/build/PowerControl_autogen/include_Release",
+	"INPUTS" : 
+	[
+		"D:/00_Code/PowerControl/images/exit.ico",
+		"D:/00_Code/PowerControl/images/logo.ico",
+		"D:/00_Code/PowerControl/images/001.png"
+	],
+	"LOCK_FILE" : "D:/00_Code/PowerControl/build/CMakeFiles/PowerControl_autogen.dir/AutoRcc_images_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : true,
+	"OPTIONS" : [ "-name", "images" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_images.cpp",
+	"RCC_EXECUTABLE" : "C:/Dev/Qt6/6.0.0/mingw81_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "D:/00_Code/PowerControl/build/CMakeFiles/PowerControl_autogen.dir/AutoRcc_images_EWIEGA46WW_Used.txt",
+	"SETTINGS_FILE_Debug" : "D:/00_Code/PowerControl/build/CMakeFiles/PowerControl_autogen.dir/AutoRcc_images_EWIEGA46WW_Used_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "D:/00_Code/PowerControl/build/CMakeFiles/PowerControl_autogen.dir/AutoRcc_images_EWIEGA46WW_Used_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "D:/00_Code/PowerControl/build/CMakeFiles/PowerControl_autogen.dir/AutoRcc_images_EWIEGA46WW_Used_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "D:/00_Code/PowerControl/build/CMakeFiles/PowerControl_autogen.dir/AutoRcc_images_EWIEGA46WW_Used_Release.txt",
+	"SOURCE" : "D:/00_Code/PowerControl/images.qrc",
+	"VERBOSITY" : 0
+}
